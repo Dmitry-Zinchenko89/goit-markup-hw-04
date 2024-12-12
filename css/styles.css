@@ -161,6 +161,7 @@ img {
   background-color: #2e2f42;
 
   padding: 188px 0;
+  margin: auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -250,9 +251,19 @@ img {
 .item-section-two:last-child {
   margin-right: 0;
 }
+.sect-two-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
 .item-icon {
   display: flex;
-  border: 1px solid #8e8f99;
+
   border-radius: 4px;
   width: 264px;
   height: 112px;
