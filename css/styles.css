@@ -161,8 +161,6 @@ img {
   background-color: #2e2f42;
 
   padding: 188px 0;
-}
-.section-one .container {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -173,6 +171,9 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.section-one .container {
 }
 .title-section-one {
   font-weight: 700;
