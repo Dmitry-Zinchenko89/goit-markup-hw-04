@@ -42,6 +42,8 @@ img {
 /* #region header */
 .header-page {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-page .container {
   justify-content: space-between;
@@ -58,9 +60,10 @@ img {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: #404bbf;
   text-transform: uppercase;
   margin-right: 76px;
+  position: relative;
 }
 
 .header-span {
@@ -84,17 +87,23 @@ img {
 .nav-item {
 }
 
-.nav-active:hover::after {
+.nav-active::after {
   content: "";
   display: block;
   border: 1px solid #000;
   border-radius: 2px;
-  width: 48px;
+  width: 100%;
   height: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  background: #404bbf;
+  background-color: #404bbf;
   margin-top: 20px;
-  margin-bottom: 0;
+  margin-bottom: -1px;
+  position: absolute;
+}
+.nav-active {
+  position: absolute;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #404bbf;
 }
 
 .nav-link {
@@ -135,6 +144,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
