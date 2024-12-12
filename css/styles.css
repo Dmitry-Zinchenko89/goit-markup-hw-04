@@ -98,6 +98,8 @@ img {
   background-color: #404bbf;
   margin-top: 20px;
   bottom: -1px;
+  position: relative;
+  left: 0;
 }
 
 .nav-link {
