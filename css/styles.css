@@ -308,6 +308,8 @@ img {
 }
 .sect-three-list {
   display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .sect-three-item {
   width: 40px;
