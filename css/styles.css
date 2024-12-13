@@ -398,7 +398,7 @@ img {
   position: relative;
   overflow: hidden;
 }
-.img-container:hover {
+.item-section-four:hover .description {
   transform: translateY(0%);
 }
 .info-subject-four {
