@@ -398,6 +398,9 @@ img {
   position: relative;
   overflow: hidden;
 }
+.img-container:hover {
+  transform: translateY(0%);
+}
 .info-subject-four {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -418,6 +421,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 /* #endregion */
 /* #region footer */
 .footer {
